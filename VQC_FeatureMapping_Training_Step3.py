@@ -97,7 +97,6 @@ def measure_training_time(num_qubits, X, y, runs=3):
         "Qubits": num_qubits,
         "Trainable Parameters": v_ansatz.num_parameters,
         "Training Time (s)": round(np.mean(times), 2),
-        "Std Dev (s)": round(np.std(times), 2)
     }
 
 scaling_results = []
